@@ -1,0 +1,44 @@
+# Get every second element. The elments on index 1, 3, 5 ...
+Name= "Michael Jackson"
+Name[::2]
+
+
+Slicing that is involved with a stride
+# Get every second element in the range from index 0 to index 4
+Name = "Michael Jackson"
+Name[0:5:2]
+
+
+# Concatenate two strings
+
+Statement = Name + "is the best"
+Statement
+
+
+# Print the string for 3 times
+
+3 * "Michael Jackson"
+
+
+# Concatenate strings
+
+Name = "Michael Jackson"
+Name = Name + " is the best"
+Name
+
+
+Escape sequences
+
+# New line escape sequence
+
+print(" Michael Jackson \n is the best" )
+
+
+# Tab escape sequence
+
+print(" Michael Jackson \t is the best" )
+
+
+# Include back slash in string
+
+print(" Michael Jackson \\ is the best" )
